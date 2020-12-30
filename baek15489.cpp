@@ -17,9 +17,8 @@ int main(void) {
 	}
 
 	for (int i = R - 1; i < R - 1 + W; i++)
-		for (int j = C - 1; j < i - R + C + 1; j++) {
+		for (int j = C - 1; j < i - R + C + 1; j++)
 			sum += pascal[i][j];
-		}
 
 	printf("%d\n", sum);
 	return 0;
